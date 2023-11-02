@@ -1,7 +1,7 @@
 # _stock_GUI_Tkinter_
 
 stock_GUI_app.py
-'''
+```
 #-------------------------------
 #1, Imports the tkinter module.
 #-------------------------------
@@ -120,9 +120,9 @@ scrollbar.grid(row = 0, column = 1, sticky = 'ns', padx = (0,5), pady = 5)
 #4, Runs the window's main loop.
 #-------------------------------
 root.mainloop()
-'''
+```
 stock_GUI_app.py
-'''
+```
 import tkinter
 import yfinance as yf
 import pandas as pd
@@ -168,4 +168,4 @@ def get_data(tree, symbol_entry, number, period_combobox, interval_combobox):
     for index in range(len(dataset)):
         #https://tkdocs.com/tutorial/tree.html
         tree.insert('', tkinter.END, values=list(dataset.loc[index]))
-'''
+```
