@@ -1,5 +1,5 @@
 # _stock_GUI_Tkinter_
-根據 https://www.mssqltips.com/sqlservertip/7587/python-gui-with-tkinter/
+根據 https://www.mssqltips.com/sqlservertip/7587/python-gui-with-tkinter/  
 stock_GUI_app.py
 ```
 #-------------------------------
