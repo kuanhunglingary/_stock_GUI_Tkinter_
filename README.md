@@ -29,7 +29,6 @@ root.config(bg = bg_color)
 #3.1 Creates frames.
 greeting_frame = tkinter.Frame(root, bg=bg_color)
 textbox_frame = tkinter.Frame(root, bg=bg_color)
-radio_frame = tkinter.LabelFrame(root, text='Selct a dataset', bg=bg_color, fg=forecolor)
 combobox_frame = tkinter.Frame(root, bg=bg_color)
 button_frame = tkinter.Frame(root, bg=bg_color)
 treeview_frame = tkinter.Frame(root, bg=bg_color)
@@ -37,7 +36,6 @@ treeview_frame = tkinter.Frame(root, bg=bg_color)
 #3.2 Arranges the frames.
 greeting_frame.pack()
 textbox_frame.pack()
-radio_frame.pack()
 combobox_frame.pack()
 button_frame.pack()
 treeview_frame.pack()
@@ -65,8 +63,7 @@ text_entry.grid(row=0, column=1, padx=5, pady=5)
 #3.4.4 Bind to the event
 text_entry.bind("<ButtonPress-1>", lambda event, initial_message = initial_value: backend.entry_click(event, initial_value))
 
-#3.5 Arranges the radio frame.
-#3.5.1 Set initial value.
+#3.5 Set initial value.
 number = tkinter.IntVar()
 number.set(1)
 
